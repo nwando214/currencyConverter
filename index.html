@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Convert Currency</title>
-
-
+    <link rel="stylesheet" href="styles/currencyconverter.css">
+    
 </head>
 <body>
     <select name="" id="select-currency">
@@ -14,12 +14,13 @@
         <option value="pounds">Pounds</option>
     </select>
     <input 
+    class="" 
     type="number"
     id="currencyInput"
     placeholder="Add Currency"
      >
-    <button id="changeCurrencyBtn" type="button">Change Currency</button>
-    <div id="output"></div>
+    <button id="changeCurrencyBtn" type="button"  class="changeBtn">Change Currency</button>
+    <div class="outputDiv"   id="output"></div>
     <script src="scripts/currencyconverter.js" type="module"></script>
 </body>
 </html>
